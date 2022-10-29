@@ -1,0 +1,147 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav_container {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white !important
+}
+
+/* Hero Section  */
+.btn-custom {
+    background-color: #7499f1;
+}
+
+.btn-custom:hover {
+    background-color: #7499f1dc;
+}
+
+/* Services section on home page */
+.services{
+    margin-bottom: 120px;
+}
+.title {
+    color: #fa9746;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    left: -29px;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    background-color: #7499f1;
+    box-shadow: 0px 4px 4px 0px #aaa;
+    border-radius: 4px;
+    content: '';
+}
+
+.title::after {
+    position: absolute;
+    left: -19px;
+    top: 25px;
+    height: 14px;
+    width: 14px;
+    transform: rotate(45deg);
+    background-color: #7499f1;
+    box-shadow: 0px 4px 4px 0px #aaa;
+    border-radius: 4px;
+    content: '';
+}
+
+/* services */
+.services {
+    padding: 40px;
+    position: relative;
+}
+
+.services .square {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto 40px;
+    position: relative;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    padding: 10px;
+    background-color: #7499f1;
+    box-shadow: 0px 0px 27px 0px #ccc;
+    border: 2px dotted #eaf3fa;
+}
+
+.square i {
+    transform: rotate(315deg);
+    display: block;
+    color: #eaf3fa;
+    font-size: 40px;
+    padding-top: 17px;
+    padding-right: 14px;
+}
+
+.services .square::before {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #fa9746;
+    content: '';
+}
+
+.services .square::after {
+    position: absolute;
+    left: 50px;
+    top: 66px;
+    width: 1px;
+    height: 88%;
+    background-color: #fa9746;
+    content: '';
+    transform: rotate(90deg);
+}
+
+.services .serv .num {
+    width: 60px;
+    height: 60px;
+    background-color: #7499f1;
+    box-shadow: 0px 0px 15px 0px #00a9d3;
+    margin: -38px auto 15px auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 7px;
+    border: 1px dashed;
+}
+
+.services .serv h5 {
+    color: #fa9746;
+}
+
+.services .serv p {
+    color: #777;
+}
+
+.services .serv hr {
+    width: 30px;
+    border-top: 3px solid rgb(0 169 211);
+}
+
+.contactUsHeading{
+    margin-top: -37px;
+    margin-left: -10px;
+}
+#contactForm{
+    margin-bottom: 100px !important;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: auto !important;
+}
